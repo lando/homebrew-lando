@@ -2,7 +2,9 @@
 
 Install Lando with Homebrew on your Mac. Right now we only support installing Hyperdrive:
 
-`brew install lando/lando/hyperdrive`
+<!-- project_table_start -->
+TABLE HERE
+<!--project_table_end -->
 
 
 ## How do I install these formulae?
