@@ -10,6 +10,15 @@ class Hyperdrive < Formula
   license "GPL-3.0"
 
   on_macos do
+    on_intel do
+      url "https://github.com/lando/hyperdrive/releases/download/v0.7.0-alpha.17/hyperdrive-macos-x64-v0.7.0-alpha.17.tar.gz"
+      sha256 "960ee8f9bd7db8441e2d9b81d29ecd4217c0ed4805a252e1d21194cce1bef979"
+    end
+
+    on_arm do
+      url "https://github.com/lando/hyperdrive/releases/download/v0.7.0-alpha.17/hyperdrive-macos-arm64-v0.7.0-alpha.17.tar.gz"
+      sha256 "ba7aee24d63ebb40ef0eb4b8559b0937fac2438c19111367c623a0b1e4ce83f1"
+    end
   end
 
   def install
