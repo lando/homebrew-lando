@@ -12,12 +12,12 @@ class Hyperdrive < Formula
   on_macos do
     on_intel do
       url "https://github.com/lando/hyperdrive/releases/download/v0.7.0-alpha.17/hyperdrive-macos-x64-v0.7.0-alpha.17.tar.gz"
-      sha256 "960ee8f9bd7db8441e2d9b81d29ecd4217c0ed4805a252e1d21194cce1bef979"
+      sha256 "01864d91cc86a8c01d52fe7ba93b04d92485cb2b9b24a3281b249d87284c6a1d"
     end
 
     on_arm do
       url "https://github.com/lando/hyperdrive/releases/download/v0.7.0-alpha.17/hyperdrive-macos-arm64-v0.7.0-alpha.17.tar.gz"
-      sha256 "ba7aee24d63ebb40ef0eb4b8559b0937fac2438c19111367c623a0b1e4ce83f1"
+      sha256 "634e399211614da26c6592965d12e7f9d2d22acafc10de040fec7e9448074c45"
     end
   end
 
